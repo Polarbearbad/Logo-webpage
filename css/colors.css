@@ -1,6 +1,8 @@
 :root {
 	--header-logo: #ffffff;
 	--header-menu: #e5e5e5;
+	--header-bg-color: rgba(0, 0, 0, 0.2);
 	--main-header: #495057;
 	--main-body: #6c757d;
+	--text-decor-color: #d4a373;
 }
