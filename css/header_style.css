@@ -32,7 +32,7 @@
 	align-items: center;
 }
 .header__item_logo {
-	color: #f8f9fa;
+	color: var(--header-logo);
 	text-transform: uppercase;
 	font-family: "Lora", "gloria", sans-serif;
 	font-style: normal;
@@ -54,4 +54,5 @@
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 16px;
+	color: var(--header-menu);
 }
