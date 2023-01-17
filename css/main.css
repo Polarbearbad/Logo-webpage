@@ -1,0 +1,38 @@
+@import url(/css/colors.css);
+@import url(/css/fonts.css);
+
+.main {
+}
+.container {
+}
+.header__main {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__main_logo {
+	font-family: "lora", "roboto", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: calc(1rem + 1.5vw);
+	line-height: 46px;
+	color: var(--main-header);
+}
+.main__navigation {
+	display: grid;
+	grid-auto-flow: column;
+	column-gap: 1.5vw;
+}
+.main__navigation_item {
+	color: var(--main-header);
+	font-size: calc(0.2rem + 1.3vw);
+}
+.main__container {
+}
+.first {
+}
+.firts__item {
+}
+.second {
+}

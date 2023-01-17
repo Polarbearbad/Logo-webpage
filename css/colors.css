@@ -2,8 +2,10 @@
 	--header-logo: #ffffff;
 	--header-menu: #e5e5e5;
 	--header-bg-color: rgba(0, 0, 0, 0.2);
+	--header-bg-color-darker: rgba(0, 0, 0);
 	--header-default-bg-color: #1d3557;
 	--main-header: #495057;
 	--main-body: #6c757d;
 	--text-decor-color: #d4a373;
+	--selection: #00b4d8;
 }
