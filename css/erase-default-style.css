@@ -1,4 +1,5 @@
 @import url(/css/colors.css);
+@import url(/css/fonts.css);
 *,
 *::before,
 *::after {
@@ -7,6 +8,7 @@
 	text-decoration: none;
 	box-sizing: border-box;
 	color: var(--header-logo);
+	font-family: "lora", "roboto";
 }
 
 ul,
@@ -29,4 +31,10 @@ a:focus,
 a:visited {
 	outline: none;
 	color: #000;
+}
+
+.container {
+	max-width: 95%;
+	height: 100%;
+	margin: 0 auto;
 }
