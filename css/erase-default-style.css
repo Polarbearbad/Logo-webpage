@@ -1,5 +1,4 @@
 @import url(/css/colors.css);
-@import url(/css/fonts.css);
 *,
 *::before,
 *::after {
@@ -7,8 +6,7 @@
 	padding: 0;
 	text-decoration: none;
 	box-sizing: border-box;
-	color: var(--header-logo);
-	font-family: "lora", "roboto";
+	color: #212529;
 }
 
 #wrapper {
@@ -30,7 +28,7 @@ ol {
 input,
 textarea,
 button {
-	padding: 0 20px;
+	padding: 5px 20px;
 	font-size: 1.5rem;
 }
 
@@ -52,6 +50,11 @@ a:visited {
 
 *::selection {
 	color: var(--selection);
+}
+
+*:focus {
+	outline: none;
+	box-shadow: 0 0 10px #000;
 }
 
 ::-webkit-scrollbar {
